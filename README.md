@@ -11,4 +11,9 @@ composer require roskovynskyi/click-for-row-details
 
 # Usage
 
-Just install this package and every row in your tables will automatically become clickable.
+Just install this package and every row in your tables will automatically become clickable for row details.
+
+
+## License
+
+The MIT License
