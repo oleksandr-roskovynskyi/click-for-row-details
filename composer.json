@@ -1,0 +1,40 @@
+{
+    "name": "roskovynskyi/click-for-row-details",
+    "description": "roskovynskyi/click-for-row-details",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "roskovynskyi",
+            "email": "roskovynskyi@gmail.com"
+        }
+    ],
+    "keywords": [
+        "laravel",
+        "nova",
+        "table",
+		"details",
+        "click",
+        "row"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Roskovynskyi\\ClickForRowDetails\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Roskovynskyi\\ClickForRowDetails\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
